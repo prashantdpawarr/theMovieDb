@@ -1,0 +1,80 @@
+.dark-bg {
+    background-color: #282c34;
+    color: #fff;
+}
+
+.navbar-bg {
+    background-color: #343a40;
+}
+
+.me-50 {
+    margin-right: 105px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.movies-col {
+    margin: 0px 25px !important;
+    width: calc(33.33% - 176px);
+}
+
+.singlePageColor {
+    background-color: #090a0e;
+    color: #ffffff;
+}
+
+.mainWrapper {
+    height: 100vh;
+    padding: 20px 0px;
+}
+
+.poster_img {
+    height: 190px;
+    width: 118px;
+    margin: 2px auto;
+}
+
+.search_img {
+    height: 330px;
+    width: 228px;
+    margin: 18px auto;
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 576px) {
+    body {
+        /* border: 1px solid red; */
+    }
+
+    .movies-col {
+        margin: 0px auto !important;
+        width: calc(33.33% - -50px);
+    }
+
+    .me-50 {
+        margin-right: 105px;
+    }
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width:575px) {
+    body {
+        /* border: 1px solid red; */
+    }
+
+    .movies-col {
+        margin: 0px auto !important;
+        width: calc(33.33% - -50px);
+    }
+
+    .me-50 {
+        margin-right: 105px;
+    }
+
+    .mb-50 {
+        margin-bottom: 50px;
+    }
+}
